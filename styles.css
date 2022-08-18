@@ -4,13 +4,12 @@
     box-sizing: border-box;
 }
 
-/* .header-container, img, .nav-container, .img-container, .content-container, section, .text {
-    border: 1px solid red;
-} */
+body {
+    font-family: 'roboto', sans-serif;
+}
 
 .header-container {
     background-color: #1F2937;
-    font-family: 'roboto', sans-serif;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -84,6 +83,11 @@ A:hover {
     outline: none;
 }
 
+.text-button:hover {
+    background-color: white;
+    color:rgb(250, 168, 16)
+}
+
 section{
     display: flex;
     flex-direction: column;
@@ -112,4 +116,77 @@ section{
 
 .text {
     max-width: 150px;
+}
+
+.quote-container {
+    background: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-item {
+    font-style: italic;
+    font-weight: 200;
+    margin: 100px 0 0 0;
+    width: 700px;
+}
+
+.author {
+    font-size: 19px;
+    width: 700px;
+    margin: 15px 0 100px 0;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+}
+
+.blue-box {
+    background: #3882F6;
+    color: white;
+    border-radius: 10px;
+    width: 825px;
+    height: 100px;
+    margin: 70px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blue-main-text {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.blue-text-button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 4px 20px;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+}
+
+.blue-text-button:hover {
+    background-color: white;
+    color:rgb(250, 168, 16)
+}
+
+footer {
+    height: 75px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
